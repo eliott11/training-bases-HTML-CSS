@@ -1,0 +1,41 @@
+table {
+  width:75%;
+  margin:auto;
+  border : 3px solid;
+  border-collapse : collapse;
+}
+
+th {
+  padding : 5px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+td {
+  border : 1px dotted;
+  border-color: red;
+  padding : 2px;
+  text-align: center;
+}
+
+caption::first-letter {
+    font-size: 150%;
+} 
+
+tbody:last-of-type td:last-child {
+  text-align: left;
+}
+
+th:nth-child(even){
+    background: #cccccc ;
+}
+
+td:nth-last-child(odd){
+    background: #cccccc ;
+}
+
+tbody:hover td:last-child {
+  background: #000000 ;
+  color : white;
+  border-color: white;
+}

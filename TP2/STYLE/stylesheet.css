@@ -1,0 +1,66 @@
+/* Paramètres tableau */
+a{
+    font-size:150%;
+}
+
+thead {
+    font-variant-caps: small-caps;
+}
+
+th:nth-child(2n) {
+    background-color: #C8C8C8;
+}
+
+th {
+    padding: 5px;
+}
+
+td {
+    border: 1px dotted red;
+    padding: 2px;
+}
+
+/* TABLEAU */
+table {
+    text-align:center;
+    margin: 0 auto;
+    margin-bottom: 50px; 
+    width:75%;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+td:first-child:not(td[rowspan*="4"]):not(td[rowspan*="2"]) {
+    background-color: #C8C8C8;
+}
+
+td:last-child {
+    background-color: #C8C8C8;
+}
+
+tbody:hover td:last-child {
+    background: black !important;
+    color: white;
+}
+
+td:first-child[rowspan="4"] ~ td:nth-child(2) {
+    background-color: #C8C8C8;
+}
+
+td:first-child[rowspan="2"] ~ td:nth-child(2) {
+    background-color: #C8C8C8;
+}
+
+tbody:last-child td:last-child {
+    text-align: start;
+}
+
+/* CARTE COULEUR */
+div:nth-child(2) {
+    text-align: center;
+}
+
+img {
+    width: 200px; 
+    height: 100px;
+}

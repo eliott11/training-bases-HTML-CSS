@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">                                                                        <!--I-->
+    <head>
+        <title>La page de Eliott Demont</title>
+        <meta charset="UTF-8">
+        <script async="true" src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=AM_CHTML"> </script> <!--MathJax-->
+        <link rel="stylesheet" href="C:\Users\eliot\Desktop\Exos-Eliott\Eliott\TP1\STYLE\stylesheet.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#home">Accès au campus</a></li>
+                <li><a href="#otherWebsites">Les autres sites de l’université</a></li>
+                <li><a href="#career">Mon parcours</a></li>
+                <li><a href="#music">Un peu de musique</a></li>
+                <li><a href="#equation">Équations du second degré</a></li>
+            </ul>
+        </nav>
+                                                                                        <!--II-->
+        <h1>Bienvenue sur la page de Eliott Demont, étudiant à                          <!--1)-->
+        <a href="https://www.iim.fr/">l’université de Paris</a></h1>
+            <section>
+                <h2>Accès au campus du Madrillet</h2>                         <!--2)-->
+                    <p>Pour venir sur mon campus, c’est facile :</p>                    <!--3)-->
+                    <figure><img src="Madrillet.png" alt="Plan du campus du Madrillet">
+                    <figcaption>Plan schématique du campus</figcaption></figure>       <!--4)-->
+            </section>
+            <section>
+                <h2 id="otherWebsites">Les autres sites de l’université</h2>            <!--5)-->
+                    <p>L’université de Rouen comprend d’autres sites :</p>
+                        <ol reversed>
+                            <li>Mont-Saint-Aignan</li>
+                            <li>Pasteur ;</li>
+                            <li>Martainville ;</li>
+                            <li>Évreux ;</li>
+                            <li>Elbeuf.</li>
+                        </ol>
+            </section>
+            <section>
+                <h2 id="career">Mon parcours</h2>                                        <!--6)-->
+                    <ul>
+                        <li>A1 : Année générale avec développement web,Créa, E-Business, Jeu Vidéo, 3D ;</li>
+                        <li>A2 : Axe Développement web ;</li>
+                        <li>A3 : Axe Développement web ;</li>
+                        <li>A4 : Master 1 Ingenierie web et mobile.</li>
+                    </ul>
+            </section>
+            <section>
+                <h2 id="music">Un peu de musique</h2>                                    <!--7)-->
+                <figure>
+                    <figcaption>Première variation du premier mouvement de la sonate pour piano no 11 de Mozart</figcaption>
+                    <audio
+                        controls
+                        src="https://upload.wikimedia.org/wikipedia/commons/4/43/Piano_Sonata_No._11%2C_Variation_1.ogg">
+                    </audio>
+                </figure>
+            </section>
+            <section>
+                <h2 id="equation">Équations du second degré</h2>                              <!--6)-->
+
+                        <!-- Ma SOLUTION car blocage : MathJax -->
+                        <div class="cmath">
+                            <p>Les solutions de l’équation
+                                `ax²+bx+c = 0`, si `a &ne; 0`, sont
+                                `frac(-b &plusmn;sqrt(b²-4ac))(2a)`
+                            </p>
+                        </div>
+
+                        <!-- <math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mrow>
+                                <mi>a</mi>
+                                <mi>x</mi>
+                                <mn>²</mn>
+                                <mo>+</mo>
+                                <mi>b</mi>
+                                <mi>x</mi>
+                                <mo>+</mo>
+                                <mi>c</mi>
+                                <mo>=</mo>
+                                <mn>0</mn>
+                            </mrow>
+                        </math>
+ 
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mrow>
+                                <mtext>, si</mtext>
+                                <mi>a</mi>
+                                <mo>&ne;</mo>
+                                <mn>0</mn>
+                            </mrow>
+                          </math>
+
+                        <math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mrow>
+                                <mtext>, sont</mtext>
+                                <mi>x</mi>
+                                <mo>=</mo>
+                                    <mo>-</mo>
+                                    <mi>b</mi>
+                                    <mo>&plusmn;</mo>
+                                    <mi>b</mi>
+                                    <mn>²</mn>
+                                    <mo>-</mo>
+                                    <mn>4</mn>
+                                    <mi>a</mi>
+                                    <mi>c</mi>
+
+                                    <mo>&divide;</mo>
+                                    <mn>2</mn>
+                                    <mi>a</mi>
+                            </mrow>
+                        </math> -->
+                        
+                        <!---------------un autre essai sans succès-------------->
+                        
+                        <!-- <math xmlns="http://www.w3.org/1998/Math/MathML">
+                            <semantics>
+                             <mrow>
+                               <mi>x</mi>
+                               <mo>=</mo>
+                               <mfrac>
+                                 <mrow>
+                                   <mo form="prefix">&minus;</mo>
+                                   <mi>b</mi>
+                                   <mo>&pm;</mo>
+                                   <msqrt>
+                                     <msup><mi>b</mi><mn>2</mn></msup>
+                                     <mo>&minus;</mo>
+                                     <mn>4</mn><mo>&it;</mo><mi>a</mi><mo>&it;</mo><mi>c</mi>
+                                   </msqrt>
+                                 </mrow>
+                                 <mrow>
+                                   <mn>2</mn>
+                                   <mo>&it;</mo>
+                                   <mi>a</mi>
+                                 </mrow>
+                               </mfrac>
+                             </mrow>
+                             <annotation encoding="application/x-tex">
+                                x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+                             </annotation>
+                             <annotation encoding="StarMath 5.0">
+                                x={-b plusminus sqrt {b^2 - 4 ac}} over {2 a}
+                             </annotation>
+                            </semantics>
+                        </math> -->
+
+
+                        <mrow>
+                            <mi>a</mi>
+                            <msup>
+                                <mi>x</mi>
+                                <mn>2</mn>
+                            </msup>
+                            <mo>+</mo>
+                            <mi>b</mi>
+                            <mi>x</mi>
+                            <mo>+</mo>
+                            <mi>c</mi>
+                            <mo>=</mo>
+                            <mn>0</mn>
+                        </mrow>
+                    </math>,
+                    si
+                    <math>
+                        <mrow>
+                            <mi>a</mi>
+                            <mo>&ne;</mo>
+                            <mn>0</mn>
+                        </mrow>
+                    </math>,
+                    est
+                    <math>
+                        <mrow>
+                            <mi>x</mi>
+                            <mo>=</mo>
+                            <mfrac>
+                                <mrow>
+                                    <mo>-</mo>
+                                    <mi>b</mi>
+                                    <mo>&plusmn;</mo>
+                                    <msqrt>
+                                        <mrow>
+                                            <msup>
+                                                <mi>b</mi>
+                                                <mn>2</mn>
+                                            </msup>
+                                            <mo>-</mo>
+                                            <mn>4</mn>
+                                            <mi>a</mi>
+                                            <mi>c</mi>
+                                        </mrow>
+                                    </msqrt>
+                                </mrow>
+                                <mrow>
+                                    <mn>2</mn>
+                                    <mi>a</mi>
+                                </mrow>
+                            </mfrac>
+                        </mrow>
+                    </math>
+            </section>
+    </body>
+</html>

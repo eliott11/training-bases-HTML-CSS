@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le TP2 de Eliott Demont</title>
+    <link rel="stylesheet" href="./STYLE/stylesheet.css">
+</head>
+<body>
+<div>
+    <table>
+        <caption><a>T</a>ableau 1 : Quelques entités HTML</caption>
+        <thead> <!-- En-tête du tableau -->
+            <tr">
+                <th>Catégorie</th>
+                <th>Entité Html</th>
+                <th>Code</th>
+                <th>Commentaire</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <!-- En-tête du tableau -->
+            <tr>
+                <td rowspan="4">Accents</td>
+                <td>É</td>
+                <td>&amp;Eacute;</td>
+                <td></td>
+            </tr>
+
+            <!-- Corps du tableau -->
+            <tr>
+                
+                <td>È</td>
+                <td>&amp;Egrave;</td>
+                <td></td>
+            </tr>
+        
+            <!-- Corps du tableau -->
+            <tr>
+                
+                <td>À</td>
+                <td>&amp;Agrave;</td>
+                <td></td>
+            </tr>
+            <!-- Corps du tableau -->
+            <tr>
+                
+                <td>ð</td>
+                <td>&amp;eth;</td>
+                <td>Lettre Islandaise</td>
+            </tr>
+        </tbody>
+
+        <tbody> <!-- Corps du tableau -->
+            <tr>
+                <td rowspan="2">Monnaies</td>
+                <td>€</td>
+                <td>&amp;euro;</td>
+                <td>Euro</td>
+            </tr>
+        
+        <!-- Corps du tableau -->
+            <tr>
+                
+                <td>£</td>
+                <td>&amp;pound;</td>
+                <td>Livre Sterling</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div> 
+    <!-- https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_areamap | https://html.com/images/how-to-make-an-image-map/-->
+    <img src="carte.png" alt="shapes" usemap="#shapesmap">
+    <map name="shapesmap">
+        <area shape="rect" target="_blank" coords="0, 0, 100, 50" alt="orange" href="orange.fr">
+        <area shape="poly" target="_blank" coords="100, 0, 200, 50, 100, 50" alt="rouge" href="rouge.fr">
+        <area shape="poly" target="_blank" coords="100, 0, 200, 0, 200, 50" alt="violet" href="violet.fr">
+        <area shape="poly" target="_blank" coords="0, 50, 100, 100, 0, 100" alt="vert" href="vert.fr">
+        <area shape="poly" target="_blank" coords="0, 50, 100, 50, 100, 100" alt="jaune" href="jaune.fr">
+        <area shape="rect" target="_blank" coords="100, 50, 200, 100" alt="bleu" href="bleu.fr">
+    </map>
+</div>
+
+</body>
+</html>

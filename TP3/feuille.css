@@ -1,0 +1,251 @@
+body {
+    background-color:#F3F3F3;
+    font-family: sans-serif;
+    
+}
+
+h1 {
+    font-size: 160%;
+    border-bottom: 1px solid #AAAAAA;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration:none;
+}
+
+/* LIENS */
+a:link {
+    color: #0645AD;
+}
+
+a:visited {
+    color: #0B0080;
+}
+
+.externe:link {
+    color: #3366BB;
+}
+
+.externe:visited {
+    color: #663366;
+}
+
+/* CONTENU DE LA PAGE */
+
+/* INFO BOX */
+.infobox {
+    width: 300px;
+    padding: 1em;
+    margin: 0 0 0.5em 1em;
+    margin-top: 0;
+    border: solid 3px grey;
+    background-color: #F9F9F9;
+    float: right;
+    display: flex;
+    justify-content: center;
+    clear: right;
+    word-wrap: break-word;
+    /* float: inline-end; */
+}
+
+.infobox td {
+    padding-top: 2px;
+}
+
+.infobox img[src="logo.png"] { /* s'applique uniquement à l'img logo */
+    /* background-color: lawngreen; pour etre sûr que le ciblage fonctionne */
+    padding-left: 5px;
+}
+
+.infobox th[colspan] {
+    background-color: #B4464B;
+    color: white;
+}
+
+.infobox th:not(th[colspan]) {
+    text-align: start;
+}
+
+/* CONTENU INFOBOX */
+.entete {
+    font-size: 150%;
+}
+
+tbody>th:first-child {
+    text-align: center;
+}
+
+#carte:first-child {
+    text-align: center;
+}
+
+#carte {
+    font-size: 80%;
+    position: relative;
+}
+
+#pointrouge {
+    position: absolute;
+    float:center;
+    top:40px;
+    right: 188px;
+}
+
+
+/* CONTENU DE LA PAGE */
+
+/* COORDONNEES */
+#coordonnees {
+    font-size: 90%;
+    display: flex;
+    float: right;
+    /* margin-bottom: auto; sinon décale infobox */
+    margin-right: 2em;
+}
+
+/* CONTENU */
+#contenu {
+    /* display: flex;
+    /* flex-direction: row; */
+    margin-left: 175px;
+    padding-left: 15px;
+    padding-top: 10px;
+    background-color: #F9F9F9;
+    width: auto;
+    margin-top: 1em;
+}
+
+/* BLOC PRINCIPAL */
+#bloc_principal {   /* :not(#sommaire)   ne veut pas selectionner sommaire */
+    list-style-image: url(page-wiki/puce.png);
+}
+
+#bloc_principal>h2 { /* cible directement les h2 (pas celui de sommaire pck dans une div */
+    border-bottom: 1px solid grey;
+    width : auto;
+}
+
+#bloc_principal, #categories {
+    font-size: 80%;
+}
+
+#bloc_principal h3 {
+    font-size: 132%;
+    border-bottom: 1px dotted #AAAAAA;
+}
+
+/* SOMMAIRE */
+#sommaire {
+    background-color: #F9F9F9;
+    width: 30em;
+    border: solid 2px #AAAAAA;
+    display: flex;
+    flex-direction: column;
+}
+
+#sommaire ul li ul li, #sommaire ul li {
+    list-style: none;
+    margin-left: -25px;
+}
+
+#sommaire h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+/* BLOC PHOTO */
+.bloc_photo {
+    clear: right;
+    float: right;
+    text-align: center;
+    background-color: #F9F9F9;
+    border: solid 2px #CCCCCC;
+    width: 222px;
+    padding: 3px;
+    margin: 0.5em 0 1.3em 1.4em;
+    /* position: fixed;
+    margin-top: -100px;
+    margin-left: 400px; */
+}
+
+.bloc_photo p {
+    margin: unset;
+    margin-bottom: 4px;
+}
+
+/* LIENS EXTERNES */
+.externe {
+    background-image:url('./page-wiki/externe.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-position-x: right;
+    background-position-y: center;
+    padding-right: 13px;
+}
+
+/* CATEGORIES */
+#categories {
+    padding: 3px;
+    border: solid 1px #AAAAAA;
+    background-color: #F9F9F9;
+}
+
+div#categories {
+    display: flex;
+    align-items: right;
+    padding: 5px;
+}
+
+#categories ul li {
+    display: inline-block;
+    padding: 0 0.4em;
+    border-left: 1px solid #AAAAAA;
+    
+}
+
+#categories ul li:first-child {
+    border-left: none;
+    
+}
+
+#categories ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+
+
+
+/* BARRE DE NAVIGATION */
+
+/* NAVIGATION */
+#navigation {
+    position: absolute;
+    top: 1px;
+    left: 20px;
+    padding: 0 5px 5px 5px;
+    background-color: #F3F3F3;
+    font-size: 75%;
+}
+
+#navigation h3{
+    color: #444444;
+}
+
+/* MENU */
+.menu li {
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+.menu ul {
+    margin-left: -30px;
+}
+
+#navigation.menu {
+    width: 10em;
+}
